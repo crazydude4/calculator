@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css" type="text/css" media="all">
+    <script src="cal.js" async></script>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <th colspan="3" id="name">MY CALCULATOR</th>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" maxlength="13" id="inputtext" readonly></td>
+        </tr>
+        <tr>
+            <td><button id="one"  onclick="AT_add(1)">1</button></td>
+            <td><button id="two"  onclick="AT_add(2)">2</button></td>
+            <td><button id="three"  onclick="AT_add(3)">3</button></td>
+        </tr>
+        <tr>
+            <td><button id="four"  onclick="AT_add(4)">4</button></td>
+            <td><button id="five"  onclick="AT_add(5)">5</button></td>
+            <td><button 1d="six"  onclick="AT_add(6)">6</button></td>
+        </tr>
+        <tr>
+            <td><button id="seven"  onclick="AT_add(7)">7</button></td>
+            <td><button id="eight"  onclick="AT_add(8)">8</button></td>
+            <td><button id="nine"  onclick="AT_add(9)">9</button></td>
+        </tr>
+        <tr>
+            <td><button id="zero"  onclick="AT_add(0)">0</button></td>
+            <td><button id="clear"  onclick="cls()">clear</button></td>
+            <td><button id="plus" onclick="AT_add('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="minus" onclick="AT_add('-')">-</button></td>
+            <td><button id="multiply" onclick="AT_add('*')">*</button></td>
+            <td><button id="divide" onclick="AT_add('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button id="equals" onclick="exe()">calculate</button></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

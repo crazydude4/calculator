@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 10% 10%;
+}
+table{
+    border: 1px solid gold;
+    background-color: black;
+    color: wheat;
+}
+td{
+    height: 70px;
+    width: 200px;
+}
+button{
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    border: blue;
+    color: white;
+}
+input{
+    width: 610px;
+    height: 70px;
+    font-size: 80px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
